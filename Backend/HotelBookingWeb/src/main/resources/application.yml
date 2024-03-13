@@ -1,0 +1,27 @@
+#server:
+#  port: 8080
+#
+#spring:
+#  datasource:
+#    username: root
+#    password: root
+#    url: jdbc:mysql://localhost:3306/HotelBookingDB
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      format_sql: true
+#  servlet:
+#    multipart:
+#    max-file-size: 5MB
+#    max-request-size: 5MB
+#    file-size-threshold: 2KB
+#  security:
+#    jwt:
+#      secret-key: 96a740076b36a0d00089bfa70010f74b79701b1736aaca1e3d7ed888e0d1c58c
+#      expire-length: 3600000
+#
+#
+#
+#
